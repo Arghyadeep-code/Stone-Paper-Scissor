@@ -1,10 +1,10 @@
 import random
 comp=random.choice([1,2,3])
-me=input("what do you wanna choose?  Stone, Paper or Scissor?  ")
+me=input("what do you wanna choose?\nStone, Paper or Scissor?  ")
 mydict={"Stone":1,"Paper":2,"Scissor":3}
 reverse={1:"Stone",2:"Paper",3:"Scissor"}
 you=mydict[me]
-print("computer choosed ",reverse[comp]," and you choose ",reverse[you])
+print("computer choosed ",reverse[comp],"\nand you choose ",reverse[you])
 
 if(comp==1 and you==1):
     print("its a draw😊")
