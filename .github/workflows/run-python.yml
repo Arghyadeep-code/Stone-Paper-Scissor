@@ -19,4 +19,4 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Execute Script
-        run: python filename.py
+        run: python game.py
